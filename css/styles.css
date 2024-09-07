@@ -1,0 +1,232 @@
+.flex {
+    display: flex;
+    justify-content: space-between;
+    /* color: #fff; */
+}
+
+.topmenu {
+    /* color: #fff; */
+    display: flex;
+    column-gap: 49px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+
+    padding: 0;
+}
+
+.topmenu a {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #121212;
+    font-weight: 500;
+    font-family: "Rubik Roman", Arial;
+    text-align: center;
+    text-decoration: none;
+}
+
+.topmenu a:hover {
+    text-decoration: underline;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+}
+
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 1620px;
+    margin: auto;
+}
+
+.header .img {
+    width: 10px;
+    
+}
+
+.model3 a {
+    text-decoration: none;
+}
+
+.Model3 {
+    background-image: url(/imges/model\ -3.png);
+    padding-top: 25px;
+}
+.Model-Y{
+    background-image: url(../imges/debil-y.png);
+}
+.Model_s{
+    background-image: url(../imges/model-s.png);
+}
+.Model-x{
+    background-image: url(../imges/model-x.png);
+}
+.Solar_Panels{      
+    background-image: url(../imges/dolar-planes.png);
+}
+.Solar_roof{
+    background-image: url(../imges/Solar_roof.png);
+}
+.Accessories{
+    background: url(../imges/acsesofytad.png) no-repeat center/cover;
+}
+
+.Model3 h1,
+.Model-Y h1 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: #121212;
+    font-weight: bold;
+    font-family: "Rubik Roman";
+    text-align: center;
+}
+
+.Model3 p,
+.Model-Y p
+ {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #121212;
+    font-family: "Rubik Roman";
+}
+
+.Model3 a,
+.Model-Y a{
+    color: #121212;
+}
+
+.Model3 a:hover {
+    color: blue;
+}
+
+a.buton {
+    margin: 0 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-family: "Rubik Roman";
+    text-align: center;
+    width: 280px;
+    padding: 19px;
+    border-radius: 5px;
+    background-color: #3e4145;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.buton:hover {
+    color: #121212;
+    background-color: #e7e7e5;
+}
+
+a.buton2 {
+    margin: 015px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #121212;
+    font-family: "Rubik Roman";
+    text-align: center;
+    width: 280px;
+    padding: 18px;
+    border-radius: 5px;
+    background-color: #e7e7e5;
+    display: inline-block;
+    text-decoration: none;
+}
+
+a.buton2:hover {
+    color: #ffffff;
+    background-color: #3e4145;
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+    min-height: 120vh;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.block1 {
+    background-color: #ffffff;
+    height: 60px;
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.block2 {
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+}
+
+.block3 {
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+}
+.arrow {
+    display: block;
+    position: relative;
+}
+.arrow::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height:10px;
+    border-top: 2px solid #121212;
+    border-top: 2px solid #121212;
+    transform: rotate(-135deg);
+}
+.button_block{
+    padding-bottom: 95px;
+}
+.Model-Y{
+    background-image: url(/imges/debil-y.png);
+    padding-top: 25px; 
+}
+.footer{
+    background-color: #fff;   
+}
+.footer nav {
+    max-width: 958px;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    column-gap: 14px;
+    justify-content: space-between;
+    padding: 31px;
+}
+.footer ul >li:hover > a {
+    text-decoration: underline;
+    color: red;
+}
+.footer a{
+    font-size: 18px;
+letter-spacing: 1px;
+color: #121212;
+font-family: "Rubik Roman";
+text-align: center;
+text-decoration: none;
+}
